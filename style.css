@@ -40,6 +40,8 @@ body {
   margin: 0 auto;
 }
 
+
+
 main {
   overflow-y: scroll;
   background-color: var(--color-base-gray-100);
@@ -113,6 +115,10 @@ main h1 {
   width: 100%;
   aspect-ratio: 16/9;
   object-fit: cover;
+}
+
+.item img:hover {
+  filter: hue-rotate(7deg) contrast(101%) saturate(200%);
 }
 
 .details {
