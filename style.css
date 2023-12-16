@@ -128,7 +128,7 @@ main h1 {
   transition-delay: 0s;
   transition-timing-function: ease-out; */
 
-  transition all 200ms 0 ease-out;
+  transition: all 200ms 0 ease-out;
 }
 
 .details {
